@@ -1,8 +1,6 @@
 #include <QCoreApplication>
 #include "iostream"
 #include "ifexists.cpp"
-//#include "type.cpp"
-
 
 using namespace std;
 
