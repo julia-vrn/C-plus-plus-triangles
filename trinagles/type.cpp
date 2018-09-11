@@ -9,7 +9,10 @@ using namespace std;
 void type(float a, float b, float c){
     float hypo = 0;
     hypo = largest(a, b, c);
-    if(hypo==a){
+    if((a==b)&&(a==c)){
+        typeOfTriangle(a, b, c);
+    }
+    else if(hypo==a){
         typeOfTriangle(a, b, c);
     }else if(hypo==b){
         typeOfTriangle(b, a, c);
